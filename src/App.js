@@ -9,13 +9,13 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <Navbar />
+        <Navbar />
         <Routes>
-          <Route path='/cashbook' element={<Cashbook />} />
+          <Route path='/' element={<Cashbook />} />
           <Route path='debts' element={<Debts />} />
           <Route path='invoice' element={< Invoice />} />
         </Routes>
-        </BrowserRouter>
+      </BrowserRouter>
     </>
   );
 }
