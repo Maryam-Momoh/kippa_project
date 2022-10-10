@@ -12,8 +12,8 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Cashbook />} />
-          <Route path='debts' element={<Debts />} />
-          <Route path='invoice' element={< Invoice />} />
+          <Route path='/debts' element={<Debts />} />
+          <Route path='/invoice' element={<Invoice />} />
         </Routes>
       </BrowserRouter>
     </>
