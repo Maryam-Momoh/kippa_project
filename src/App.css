@@ -16,25 +16,25 @@
   color: hsl(243, 66%, 90%);
   font-size: 3rem;
   padding-left: 15px;
-  
+
 }
 
-.question-logo{
+.question-logo {
   color: hsl(243, 66%, 80%);
-  font-size: 1.1rem ;
+  font-size: 1.1rem;
   margin-bottom: -10px;
-  
+
 }
 
-.business-name{
+.business-name {
   padding-top: 10px;
   color: #fff;
-  margin-left: 20px ;
-  padding-right:10px ;
+  margin-left: 20px;
+  padding-right: 10px;
   font-size: 1.1rem;
 }
 
-.new-business-logo{
+.new-business-logo {
   padding-left: 50px;
 }
 
@@ -61,24 +61,24 @@
 .navbar {
   display: flex;
   justify-content: space-around;
-  
+
 }
 
 .nav-items {
   list-style: none;
-  font-size: 1.2rem; 
-  padding-bottom: 11px; 
+  font-size: 1.2rem;
+  padding-bottom: 11px;
 }
-  
-.nav-links{
+
+.nav-links {
   color: #fff;
   text-decoration: none;
   padding-bottom: 9px;
-  
+
 }
 
 .nav-links:hover {
-  border-bottom: 3px solid #fff ;
+  border-bottom: 3px solid #fff;
   transition: all 0.2s ease-out;
   /* padding-right: 10px; */
 }
@@ -89,23 +89,23 @@
 
 @media screen and (max-width: 960px) {
   .business {
-      width: 20%;
-      height: 10%;
+    width: 20%;
+    height: 10%;
   }
 
 }
 
 @media screen and (max-width: 768px) {
   .business {
-      width: 20%;
-      height: 10%;
-     
+    width: 20%;
+    height: 10%;
+
   }
 }
 
 /* CASHBOOK CSS */
 
-.records-section{
+.records-section {
   /* width: 99%; */
   height: 150px;
   margin-top: 13px;
@@ -116,18 +116,18 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
 }
 
-.balance{
+.balance {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
 }
 
-.total-balance{
+.total-balance {
   margin-left: 10px;
- 
+
 }
 
-.todays-balance{
+.todays-balance {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -135,29 +135,29 @@
 
 }
 
-.tb{
-  color:rgba(0, 0, 0, 0.6) ;
+.tb {
+  color: rgba(0, 0, 0, 0.6);
 }
 
-.balance-figure{
-   font-size: 1.2rem;
+.balance-figure {
+  font-size: 1.2rem;
 }
 
-.todays-figure{
+.todays-figure {
   color: #5048f5;
   margin: 0;
   padding: 0;
 }
 
-.records{
+.records {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 35px;
-  
+
 }
 
-.records > p {
+.records>p {
   font-size: 1.5rem;
   color: #5048f5;
   background-color: hsl(243, 66%, 90%);
@@ -167,82 +167,83 @@
 
 /* TRANSACTION SECTION */
 
-.transactions{
+.transactions {
   height: 300px;
   /* background-color: blueviolet; */
 }
-.transaction-head{
+
+.transaction-head {
   display: flex;
   justify-content: space-between;
   margin: 20px;
 }
 
-.transaction{
+.transaction {
   font-size: 1.2rem;
   font-weight: 500;
 }
 
-.transaction-body{
+.transaction-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 50px;
-  
+
 }
 
-.transaction-record{
+.transaction-record {
   font-size: 1.2rem;
   font-weight: bold;
   margin-bottom: 12px;
 }
 
-.filter{
+.filter {
   color: #5048f5;
   background-color: hsl(243, 66%, 90%);
-  border-radius: 15px ;
-  padding:5px  15px;
+  border-radius: 15px;
+  padding: 5px 15px;
 }
 
-.fa-filter{
+.fa-filter {
   padding-right: 7px;
 }
 
-.button{
+.button {
   display: flex;
   justify-content: space-between;
 }
 
-.btn{
+.btn {
   border: none;
   font-size: 1rem;
   color: #fff;
- 
+
   border-radius: 5px;
 }
 
-.money-out{
+.money-out {
   background-color: red;
   padding: 10px;
   margin-left: 10px;
   padding-left: 45px;
-  padding-right: 25px;   
+  padding-right: 25px;
 }
 
-.money-in{
+.money-in {
   background-color: #008020;
   padding: 10px;
-  margin-right: 10px; 
-  padding-left: 50px; 
+  margin-right: 10px;
+  padding-left: 50px;
   padding-right: 25px;
 }
 
 .fa-minus-circle,
-.fa-plus-circle{
+.fa-plus-circle {
   padding-right: 7px;
 }
 
-.fa-minus-circle{
+.fa-minus-circle {
   background-color: red;
   border-radius: 1px;
   color: hsl(0, 60%, 70%);
@@ -250,7 +251,7 @@
 
 /* FOOTER SECTION */
 
-.footer-container{
+.footer-container {
   /* background-color: #008020; */
   font-size: 0.8rem;
   height: 80px;
@@ -259,33 +260,33 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 15px;
-  
+
 }
 
-.book{
-  margin-left:25px;
+.book {
+  margin-left: 25px;
 }
 
-.more{
+.more {
   margin-right: 25px;
 }
 
-.fa-sticky-note-o{
+.fa-sticky-note-o {
   margin-left: 50px;
   font-size: 1.2rem;
 }
 
-.fa-pencil-square-o{
+.fa-pencil-square-o {
   margin-left: 20px;
   font-size: 1.2rem;
 }
 
-.fa-credit-card{
+.fa-credit-card {
   margin-left: 10px;
   font-size: 1.2rem;
 }
 
-.fa-ellipsis-h{
+.fa-ellipsis-h {
   margin-left: 7px;
   font-size: 1.2rem;
 }
@@ -293,6 +294,12 @@
 .book,
 .inventory,
 .money,
-.more{
+.more {
   margin-top: 3px;
+}
+
+/* DEBT SECTION  */
+
+.words {
+  display: flex;
 }

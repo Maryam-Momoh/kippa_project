@@ -1,20 +1,20 @@
+import "../App.css"
 const Debts = () => {
-    return (
-      <>
-        <div className="words">
-          <p>Recover debts quickly</p>
-          <p>Here you can track both your customers and suppliers 
-            <br>Now, add your debtors and creditors below</br>
-          </p>
-  
-          <div className="button">
-            <button><i class="fa fa-plus-circle"/> Add a new customer</button>
-          </div>
-          
+  return (
+    <>
+      <div className="words">
+        <p>Recover debts quickly</p>
+        <p>Here you can track both your customers and suppliers
+          <br />Now, add your debtors and creditors below
+        </p>
+
+        <div className="button">
+          <button><i class="fa fa-plus-circle" /> Add a new customer</button>
         </div>
-      </>
-    )
-  }
-  
-  export default Debts
-  
+
+      </div>
+    </>
+  )
+}
+
+export default Debts
